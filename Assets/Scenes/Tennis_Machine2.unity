@@ -8742,7 +8742,7 @@ MonoBehaviour:
   - {fileID: 1197482064}
   distance: 1
   speed: 6
-  shootTennisBall: {fileID: 1991747431374219390, guid: dc7612fabd4a14945a2afed7e464bce3,
+  shootTennisBall: {fileID: 8224895239540768426, guid: 14c9e76dfb09b584ea235adb7a934f1a,
     type: 3}
   shootingRange: 10
   bulletsBeforeReloading: 36

@@ -8,6 +8,7 @@ TagManager:
   - Trail
   - Wall
   - Ball
+  - Tennis_Racket
   layers:
   - Default
   - TransparentFX

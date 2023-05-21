@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 7933206890154447907}
   - component: {fileID: -2744949559422821000}
   - component: {fileID: -831653837567989146}
+  - component: {fileID: 483504572346094608}
   m_Layer: 0
   m_Name: Spectator (26)
   m_TagString: Untagged
@@ -347,7 +348,7 @@ MonoBehaviour:
   animationStateName: Spectactor1
 --- !u!95 &7933206890154447907
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -364,7 +365,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!54 &-2744949559422821000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -394,3 +395,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: {x: 0, y: 0, z: 1.8}
+--- !u!114 &483504572346094608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7933206890154447917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9d82580fc3ee649ab2dac273ce25d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  dmgTaken: 1
+  obj: {fileID: 96524203479249136, guid: c42b3e8d5eb42344bacf1cd7fa49430e, type: 3}
